@@ -3,8 +3,6 @@ Sample code to use HT1621 LCD driver with STM8S processors
 
 The STM8S processor is a small, simple, low power and cheap processor. Especially the small footprint package variants such as STM8S103F3P6 are great because they do not require external components to run (well, one capacitor), they are easily programmed, and much free software exists for development such as SDCC. They are well suited for simple measurement applications where one sensor must be interfaced to serial communication or a display.
 
-[This is how it looks](/DSCN7022.jpg "Test")
-
 Although character or even graphic LCD displays that are simple to connect to microprocessors, for low power applications they are overkill. They may require high bias voltage (5V for the ubiquitous HD44780 2x16 modules for example), or may require much current to operate. In many cases, if one variable will be displayed, a simple 7 segment display is sufficient. One such display controller is the HT1621, and many LCD displays can be found for it from China. In this project, I used this one, from DX.com, written for Arduino:
 
 http://www.dx.com/p/2-4-inch-6-digit-7-segment-lcd-display-module-blue-backlit-for-arduino-435834
