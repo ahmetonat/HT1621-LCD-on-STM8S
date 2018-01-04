@@ -17,6 +17,10 @@ The code is designed for SDCC compiler, and STM supplied Standard Peripheral Lib
 
 https://aviatorahmet.blogspot.com.tr/2018/01/programming-stm8s-using-sdcc-and-gnu.html
 
-To run it, make the connections (shown in HT1621.h file), connect the ST-Link V2 SWIM interfce pins, modify the paths defined in the two Makefiles (one is in the directory 'libs', and execute the command "make flash". This will compile the library files, compile the main file, and download the program to the microcontroller.
+To run it, make the connections (shown in HT1621.h file), connect the ST-Link V2 SWIM interfce pins, modify the paths defined in the two Makefiles (one is in the directory 'libs', and execute the command 
+```bash
+make flash
+```
+This will compile the library files, compile the main file, and download the program to the microcontroller.
 
 Please let me know if there are any difficulties or problems.
