@@ -11,6 +11,8 @@ The sample code is in the file `HT1621Demo.c`. The file sets up the processor an
 
 This system uses only about `900uA` (microamperes) continuously while doing actual ADC conversions 8 times a second.
 
+!(https://github.com/ahmetonat/HT1621-LCD-on-STM8S/blob/master/DSCN7022.JPG)
+
 The code is designed for [SDCC](http://sdcc.sourceforge.net/) compiler, and STM supplied Standard Peripheral Libraries. I have a writeup to describe how to set this up on your computer:
 
 https://aviatorahmet.blogspot.com.tr/2018/01/programming-stm8s-using-sdcc-and-gnu.html
